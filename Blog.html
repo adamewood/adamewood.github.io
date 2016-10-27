@@ -6,7 +6,7 @@
 	<style>
 	body {
 	background-color:black;
-	color: 000fff;
+	font-color: red;
 	font-size: 50px;
 	font-family: 'Proza Libre', sans-serif;
 	}
@@ -45,18 +45,27 @@
 	<source src=”media/bird_sound.mp3” type=”audio/mpeg”>
 	</audio>
 	<p>Get yourself some revolutionary filler text. Lyrics from the heartwrenching “It’s Quiet Uptown” are an add-in option, in case you don’t want to be suddenly sledgehammered into tears.
+	
+	<button onclick="likeMe()">Like</button>
 	</article>
 <article>
 <h2>Buff-breasted Sandpiper: Courtship Display</h2>
 <video width=”320” height=”240” controls>
 	<source src=”media/buffer_bird.mp4” type=”video/mp4”>
 <p>In New York you can be a new man Love doesn’t discriminate between the sinners and the saints. You must be out of your Goddamn mind So long as you come home at the end of the day, America, you great unfinished symphony, you sent for me. God help me and forgive me, I wanna build something that’s gonna outlive me.
+<button onclick="likeMe()">Like</button>
 </article>
 <article>
 	<h2>Cat Distractions</h2>
 	<iframe width="320" height="240" src="https://www.youtube.com/embed/JUoOCrbV3ZQ" frameborder="0" allowfullscreen></iframe>
 <p>Oh, let me be a part of the narrative. Why do you write like you’re running out of time? Here’s an itemized list of thirty years of disagreements. Should we honor our treaty, King Louis’ head?
+	<button onclick="likeMe()">Like</button>
 </article>
+<script>
+		var likeMe = function(event){
+			alert('I like this'); 
+		}
+	</script>
 </div>
 
 	</body>
